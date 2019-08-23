@@ -9,7 +9,9 @@
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    color: teal
  }
-
+ a {
+    text-decoration: none;
+}
  .container {
   margin: 0 auto;
   margin-top: 50px;
@@ -65,9 +67,9 @@
     line-height: 2.5;
   }
 
-  span.img_about_me {
-    display: inline-block;
-    position: absolute;
+  #about_me {
+    padding: 5px;
+    float: left;
     padding: 5px;
     left:0;
   }
